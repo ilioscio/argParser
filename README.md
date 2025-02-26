@@ -1,6 +1,6 @@
 ## argParser
-argParser simple but reasonably robust command-line argument parser written in Zig. It provides a straightforward interface for defining and processing
-command-line options with different types such as strings, boolean flags, and integers.
+A simple but reasonably robust command-line argument parser written in Zig. It provides a straightforward interface for defining and processing
+command-line options with different types such as strings, boolean flags, integers, and floats.
 
 ### Features
 
@@ -8,6 +8,7 @@ command-line options with different types such as strings, boolean flags, and in
 - **Short Forms**: Use single characters for short-form options (e.g., `-t` for `--test`).
 - **Required and Optional Arguments**: Define whether an argument is mandatory or optional.
 - **Default Values**: Set default values for arguments that are not provided on the command line.
+- **Type Checking**: Passed arguments are parsed for type validity.
 - **Help Generation**: Automatically generate detailed help messages with examples of how to use each argument.
 
 ### Usage
@@ -81,5 +82,6 @@ pub fn main() !void {
 }
 ```
 ### Known issues
-- Tests are unimplemented
-- No support for reading float inputs
+- ~~Tests are unimplemented~~
+- ~~No support for reading float inputs~~
+- No support for negative float inputs
