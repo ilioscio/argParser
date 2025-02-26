@@ -2,6 +2,8 @@
 A simple but reasonably robust command-line argument parser written in Zig. It provides a straightforward interface for defining and processing
 command-line options with different types such as strings, boolean flags, integers, and floats.
 
+![tests](https://github.com/ilioscio/argParser/actions/workflows/tests.yml/badge.svg)
+
 ### Features
 
 - **Dynamic Configuration**: Register multiple types of arguments at runtime.
